@@ -1219,7 +1219,7 @@ body {
     }
 }
 
-.sector__main-content[reference-data-sector=blueyard] h3 {
+.sector__main-content[reference-data-sector=impulse] h3 {
     font-size: 50px;
     letter-spacing: .02em;
     font-family: Neusa;
@@ -1228,18 +1228,18 @@ body {
 }
 
 @media only screen and (max-width:400px) {
-    .sector__main-content[reference-data-sector=blueyard] h3 {
+    .sector__main-content[reference-data-sector=impulse] h3 {
         font-size: 40px
     }
 }
 
 @media only screen and (min-width:768px) {
-    .sector__main-content[reference-data-sector=blueyard] h3 {
+    .sector__main-content[reference-data-sector=impulse] h3 {
         font-size: 56px
     }
 }
 
-.sector__main-content[reference-data-sector=blueyard] h2 {
+.sector__main-content[reference-data-sector=impulse] h2 {
     font-size: 20px;
     font-family: Pro;
     font-weight: 400;
@@ -1251,24 +1251,24 @@ body {
 }
 
 @media only screen and (max-width:400px) {
-    .sector__main-content[reference-data-sector=blueyard] h2 {
+    .sector__main-content[reference-data-sector=impulse] h2 {
         font-size: 20px
     }
 }
 
 @media only screen and (min-width:768px) {
-    .sector__main-content[reference-data-sector=blueyard] h2 {
+    .sector__main-content[reference-data-sector=impulse] h2 {
         font-size: 18px
     }
 }
 
 @media only screen and (min-width:768px) {
-    .sector__main-content[reference-data-sector=blueyard] h2 {
+    .sector__main-content[reference-data-sector=impulse] h2 {
         max-width: 630px
     }
 }
 
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links {
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1279,15 +1279,15 @@ body {
 }
 
 @media only screen and (min-width:768px) {
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links {
         flex-wrap: nowrap;
         justify-content: space-around;
         max-width: 470px
     }
 }
 
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a,
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links button {
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links a,
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links button {
     font-size: 20px;
     font-family: Next;
     font-weight: 500;
@@ -1302,33 +1302,33 @@ body {
 }
 
 @media only screen and (min-width:768px) {
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a,
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links button {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links a,
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links button {
         font-size: 14px
     }
 }
 
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a *,
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links button * {
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links a *,
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links button * {
     pointer-events: none
 }
 
-.sector__main-content[reference-data-sector=blueyard] .sector__main-content_links .icon__round {
+.sector__main-content[reference-data-sector=impulse] .sector__main-content_links .icon__round {
     margin: -.1em 0 0 10px
 }
 
 @media only screen and (max-width:767px) {
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links button {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links button {
         order: 3
     }
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a:nth-child(2) {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links a:nth-child(2) {
         order: 1
     }
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a:nth-child(3) {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links a:nth-child(3) {
         order: 2;
         justify-content: flex-start
     }
-    .sector__main-content[reference-data-sector=blueyard] .sector__main-content_links a:nth-child(4) {
+    .sector__main-content[reference-data-sector=impulse] .sector__main-content_links a:nth-child(4) {
         order: 4;
         justify-content: flex-start
     }

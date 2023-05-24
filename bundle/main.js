@@ -33289,7 +33289,7 @@ vec3 applyLevels(vec3 inPixel) {
                 this.logosOverview = !1;
                 this.sectorId = e, this.visible = !1, this.dom = Km.Utils.el("div"), this.container = new Ya(this.dom), this.container.scale.setScalar(Vd * Hd), Oo.add(this.container);
                 let i = Km.Utils.isMobile() ? F8 : P8;
-                e == "blueyard" && (i = 0);
+                e == "impulse" && (i = 0);
                 let r = document.querySelector(`.sector__main-content[data-sector="${e}"]`);
                 if (r) {
                     let u = Km.Utils.el("div");
@@ -33328,7 +33328,7 @@ vec3 applyLevels(vec3 inPixel) {
                     if (t === this.sectorId)
                         for (let n of e[t]) {
                             let i = new $v(n, this.mouseDummy, _3(this.sectorId));
-                            this.shape.add(i), this.shapes.push(i), this.sid === "crypto" && (i.material.uniforms.mouseAmp.value = .005)
+                            this.shape.add(i), this.shapes.push(i), this.sid === "roadmap" && (i.material.uniforms.mouseAmp.value = .005)
                         }
             }
             animateLogo(e, t, n = 0, i = !1) {
@@ -33949,22 +33949,22 @@ vec3 applyLevels(vec3 inPixel) {
                     t.position.copy(Ku[e]), this.scene.add(t), this.sectors.push(t)
                 }
                 for (let e of this.sectors) {
-                    if (e.addShapes(e0.data), e.sid == "biology") {
+                    if (e.addShapes(e0.data), e.sid == "features") {
                         let t = new yt(Ju, us);
                         e.mousePlane.add(t)
                     }
-                    if (e.sid == "engineering")
+                    if (e.sid == "about")
                         for (let t = 0; t < 8; t++) {
                             let n = new yt(Ju, us);
                             n.scale.set(.22, .27, 1), n.rotation.y = 2 * Math.PI * t / 8, e.mousePlane.add(n)
                         }
-                    if (e.sid == "economics") {
+                    if (e.sid == "home") {
                         let t = new yt(Ju, us);
                         e.mousePlane.add(t);
                         let n = new yt(Ju, us);
                         n.scale.set(.2, .1, 1), n.position.z = .1, e.mousePlane.add(n)
                     }
-                    if (e.sid == "crypto") {
+                    if (e.sid == "roadmap") {
                         let t = new yt(Ju, us);
                         e.mousePlane.add(t)
                     }
